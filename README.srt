@@ -1,0 +1,48 @@
+ 
+## Installation
+
+virtualenv WIN:
+
+```
+$ py -m venv env
+```
+
+Install with pip:
+
+```
+$ pip install -r requirements.txt
+```
+
+
+## Flask Configuration 
+
+#### ENV example
+
+
+
+```
+FLASK_ENV=dev
+SECRET_KEY= 
+JWT_SECRET_KEY= 
+PROD_DATABASE_URI=
+TEST_DATABASE_URI=
+DEV_DATABASE_URI= 
+....
+```
+
+ 
+
+
+## Run Flask
+### Run flask for develop
+```
+$ python webapp/run.py
+```
+In flask, Default port is `5000`
+
+Graphql playground page:  `http://127.0.0.1:5000/graphql`
+ 
+
+## Reference
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+https://docs.graphene-python.org/en/latest/

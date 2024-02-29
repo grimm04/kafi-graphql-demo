@@ -1,0 +1,17 @@
+Flask
+Flask-GraphQL==2.0.1
+graphene==2.1.8
+graphene-sqlalchemy==2.3.0
+
+#mysql
+PyMySQL==1.0.2
+
+python-dotenv==0.17.1 
+Flask-JWT-Extended==4.2.1
+Bcrypt-Flask==1.0.1
+Werkzeug==2.0.0
+
+graphene-sqlalchemy-filter
+wheel
+#uwsgi
+flask_cors
